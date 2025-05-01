@@ -1,36 +1,36 @@
 import os
 import numpy as np
+import torch
+from torch.utils.data import Dataset
 
-def load_img(img_dir, img_list):
+class BraTSDataset(Dataset):
     """
-    Loads a list of .npy image files from a directory into a NumPy array.
+    PyTorch-compatible Dataset for BraTS 2020 preprocessed .npy data.
+
+    Each image: (128, 128, 128, 3) → 3 MRI modalities (T2, T1ce, FLAIR)
+    Each mask:  (128, 128, 128, 4) → One-hot encoded, 4 tumor classes
+
+    Returns:
+        image tensor: shape (3, 128, 128, 128)  - channels first
+        label tensor: shape (128, 128, 128)     - class index per voxel
     """
-    images = []
-    for file in img_list:
-        if file.endswith('.npy'):
-            image = np.load(os.path.join(img_dir, file))
-            images.append(image)
-    return np.array(images)
+    def __init__(self, img_dir, mask_dir, file_list):
+        self.img_dir = img_dir
+        self.mask_dir = mask_dir
+        self.file_list = file_list
 
+    def __len__(self):
+        return len(self.file_list)
 
-def imageLoader(img_dir, img_list, mask_dir, mask_list, batch_size):
-    """
-    Custom data generator to yield batches of images and masks from .npy files.
-    Designed for 3D input data in BraTS (128x128x128x3).
-    """
-    L = len(img_list)
+    def __getitem__(self, idx):
+        # Load image and mask from .npy files
+        image = np.load(os.path.join(self.img_dir, self.file_list[idx]))
+        mask = np.load(os.path.join(self.mask_dir, self.file_list[idx]))
 
-    while True:
-        batch_start = 0
-        batch_end = batch_size
+        # Convert image to float32 and rearrange axes to (C, D, H, W)
+        image = torch.tensor(image, dtype=torch.float32).permute(3, 0, 1, 2)
 
-        while batch_start < L:
-            limit = min(batch_end, L)
+        # Convert mask to long type: (D, H, W), class indices via argmax
+        mask = torch.tensor(np.argmax(mask, axis=-1), dtype=torch.long)
 
-            X = load_img(img_dir, img_list[batch_start:limit])
-            Y = load_img(mask_dir, mask_list[batch_start:limit])
-
-            yield (X, Y)
-
-            batch_start += batch_size
-            batch_end += batch_size
+        return image, mask
