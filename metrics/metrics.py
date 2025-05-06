@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from sklearn.metrics import precision_score, recall_score, f1_score, jaccard_score, roc_auc_score
+from sklearn.metrics import precision_score, recall_score, f1_score, jaccard_score
 import numpy as np
 
 def dice_score(pred, target, smooth=1e-5):
@@ -33,14 +33,6 @@ def calculate_metrics(pred, target, num_classes=4):
     except:
         pass
 
-    # AUC-ROC
-    try:
-        roc_auc = roc_auc_score(F.one_hot(torch.tensor(target), num_classes=num_classes),
-                                F.one_hot(torch.tensor(pred), num_classes=num_classes),
-                                average='macro', multi_class='ovo')
-    except:
-        roc_auc = 0.0
-
     return {
         'accuracy': acc,
         'precision': precision,
@@ -49,6 +41,5 @@ def calculate_metrics(pred, target, num_classes=4):
         'jaccard': jaccard,
         'specificity': specificity,
         'sensitivity': sensitivity,
-        'dice': (2 * precision * recall) / (precision + recall + 1e-5),
-        'auc_roc': roc_auc
+        'dice': (2 * precision * recall) / (precision + recall + 1e-5)
     }

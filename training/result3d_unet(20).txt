@@ -1,0 +1,240 @@
+[INFO] Using device: cuda
+Found 258 valid image-mask pairs out of 258 files
+Found 86 valid image-mask pairs out of 86 files
+
+[Epoch 1/20]
+Training: 100%|█████████████████████████████████████████| 129/129 [48:30<00:00, 22.56s/it] 
+[Train] Loss: 0.4431 | Dice: 0.2256 | Acc: 0.8678
+Validation:  53%|█████████████████████▉                   | 23/43 [01:27<01:11,  3.56s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:31<01:07,  3.56s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:40<00:00,  3.73s/it]
+[Val]   Loss: 0.1734 | Dice: 0.2474 | Acc: 0.9503
+
+[Epoch 2/20]
+Training:   0%|                                                   | 0/129 [00:00<?, ?it/s]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [48:34<00:00, 22.59s/it]
+[Train] Loss: 0.1681 | Dice: 0.2444 | Acc: 0.9520
+Validation:  53%|█████████████████████▉                   | 23/43 [01:28<01:13,  3.66s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:31<01:09,  3.65s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:40<00:00,  3.74s/it]
+[Val]   Loss: 0.1639 | Dice: 0.2474 | Acc: 0.9503
+
+[Epoch 3/20]
+Training:  91%|█████████████████████████████████████▌   | 118/129 [44:25<04:09, 22.65s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training:  96%|███████████████████████████████████████▍ | 124/129 [46:40<01:52, 22.55s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [48:32<00:00, 22.58s/it]
+[Train] Loss: 0.1660 | Dice: 0.2470 | Acc: 0.9520
+Validation:  53%|█████████████████████▉                   | 23/43 [01:28<01:15,  3.76s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:32<01:10,  3.69s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:40<00:00,  3.73s/it]
+[Val]   Loss: 0.1712 | Dice: 0.2474 | Acc: 0.9503
+
+[Epoch 4/20]
+Training:   5%|██                                         | 6/129 [02:20<46:51, 22.86s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training:  21%|████████▊                                 | 27/129 [10:14<38:32, 22.67s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [48:49<00:00, 22.71s/it]
+[Train] Loss: 0.1555 | Dice: 0.2994 | Acc: 0.9539
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:15,  3.75s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:35<01:11,  3.74s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:47<00:00,  3.89s/it]
+[Val]   Loss: 0.1484 | Dice: 0.3382 | Acc: 0.9565
+
+[Epoch 5/20]
+Training: 100%|█████████████████████████████████████████| 129/129 [48:56<00:00, 22.76s/it] 
+[Train] Loss: 0.1557 | Dice: 0.3200 | Acc: 0.9558
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:15,  3.79s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:35<01:11,  3.77s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:48<00:00,  3.91s/it]
+[Val]   Loss: 0.1468 | Dice: 0.3457 | Acc: 0.9575
+
+[Epoch 6/20]
+Training: 100%|█████████████████████████████████████████| 129/129 [48:58<00:00, 22.78s/it] 
+[Train] Loss: 0.1515 | Dice: 0.3282 | Acc: 0.9572
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:15,  3.79s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:36<01:11,  3.78s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:48<00:00,  3.93s/it]
+[Val]   Loss: 0.1569 | Dice: 0.3610 | Acc: 0.9588
+
+[Epoch 7/20]
+Training: 100%|█████████████████████████████████████████| 129/129 [48:56<00:00, 22.76s/it]
+[Train] Loss: 0.1473 | Dice: 0.3365 | Acc: 0.9566
+Validation:  53%|█████████████████████▉                   | 23/43 [01:31<01:15,  3.78s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:35<01:11,  3.78s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:47<00:00,  3.90s/it]
+[Val]   Loss: 0.1472 | Dice: 0.3494 | Acc: 0.9584
+
+[Epoch 8/20]
+Training:  94%|██████████████████████████████████████▍  | 121/129 [45:55<03:01, 22.72s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [48:58<00:00, 22.78s/it]
+[Train] Loss: 0.1395 | Dice: 0.3462 | Acc: 0.9589
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:15,  3.77s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:35<01:11,  3.75s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:48<00:00,  3.91s/it]
+[Val]   Loss: 0.1287 | Dice: 0.3692 | Acc: 0.9612
+
+[Epoch 9/20]
+Training:  54%|██████████████████████▊                   | 70/129 [26:34<22:20, 22.72s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [48:57<00:00, 22.77s/it]
+[Train] Loss: 0.1325 | Dice: 0.3558 | Acc: 0.9583
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:15,  3.77s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:35<01:11,  3.75s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:48<00:00,  3.91s/it]
+[Val]   Loss: 0.1230 | Dice: 0.3729 | Acc: 0.9616
+
+[Epoch 10/20]
+Training: 100%|█████████████████████████████████████████| 129/129 [48:59<00:00, 22.79s/it] 
+[Train] Loss: 0.1292 | Dice: 0.3598 | Acc: 0.9594
+Validation:  53%|█████████████████████▉                   | 23/43 [01:31<01:15,  3.75s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:35<01:10,  3.73s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:46<00:00,  3.87s/it]
+[Val]   Loss: 0.1505 | Dice: 0.3554 | Acc: 0.9598
+
+[Epoch 11/20]
+Training:   3%|█▎                                         | 4/129 [01:35<48:35, 23.33s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training:  46%|███████████████████▏                      | 59/129 [22:26<26:27, 22.67s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [48:59<00:00, 22.79s/it]
+[Train] Loss: 0.1250 | Dice: 0.3626 | Acc: 0.9594
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:16,  3.81s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:36<01:12,  3.79s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:48<00:00,  3.92s/it]
+[Val]   Loss: 0.1168 | Dice: 0.3866 | Acc: 0.9621
+
+[Epoch 12/20]
+Training: 100%|█████████████████████████████████████████| 129/129 [48:58<00:00, 22.78s/it] 
+[Train] Loss: 0.1213 | Dice: 0.3757 | Acc: 0.9597
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:15,  3.78s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:36<01:11,  3.78s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:49<00:00,  3.94s/it]
+[Val]   Loss: 0.1159 | Dice: 0.3865 | Acc: 0.9614
+
+[Epoch 13/20]
+Training:  83%|██████████████████████████████████       | 107/129 [40:36<08:20, 22.73s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [48:57<00:00, 22.77s/it]
+[Train] Loss: 0.1178 | Dice: 0.3792 | Acc: 0.9602
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:15,  3.79s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:36<01:11,  3.78s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:48<00:00,  3.92s/it]
+[Val]   Loss: 0.1123 | Dice: 0.4114 | Acc: 0.9631
+
+[Epoch 14/20]
+Training:  52%|█████████████████████▊                    | 67/129 [25:26<23:31, 22.76s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training:  95%|██████████████████████████████████████▊  | 122/129 [46:17<02:39, 22.77s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [48:56<00:00, 22.76s/it]
+[Train] Loss: 0.1143 | Dice: 0.3884 | Acc: 0.9616
+Validation:  53%|█████████████████████▉                   | 23/43 [01:32<01:15,  3.77s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:36<01:11,  3.76s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:47<00:00,  3.90s/it]
+[Val]   Loss: 0.1098 | Dice: 0.4065 | Acc: 0.9632
+
+[Epoch 15/20]
+Training: 100%|█████████████████████████████████████████| 129/129 [48:59<00:00, 22.79s/it] 
+[Train] Loss: 0.1097 | Dice: 0.4388 | Acc: 0.9621
+Validation:  53%|█████████████████████▉                   | 23/43 [01:34<01:17,  3.87s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:38<01:12,  3.83s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:51<00:00,  3.98s/it]
+[Val]   Loss: 0.1062 | Dice: 0.4955 | Acc: 0.9646
+
+[Epoch 16/20]
+Training:  50%|█████████████████████▏                    | 65/129 [24:47<24:18, 22.78s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training:  73%|██████████████████████████████▌           | 94/129 [35:48<13:16, 22.75s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training:  76%|███████████████████████████████▉          | 98/129 [37:19<11:43, 22.68s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [49:07<00:00, 22.85s/it]
+[Train] Loss: 0.1054 | Dice: 0.4817 | Acc: 0.9640
+Validation:  53%|█████████████████████▉                   | 23/43 [01:34<01:17,  3.89s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:38<01:13,  3.86s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:50<00:00,  3.96s/it]
+[Val]   Loss: 0.1095 | Dice: 0.4592 | Acc: 0.9653
+
+[Epoch 17/20]
+Training:  44%|██████████████████▌                       | 57/129 [21:42<27:15, 22.72s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [49:07<00:00, 22.85s/it]
+[Train] Loss: 0.1037 | Dice: 0.5074 | Acc: 0.9644
+Validation:  53%|█████████████████████▉                   | 23/43 [01:34<01:18,  3.93s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:38<01:13,  3.89s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:53<00:00,  4.03s/it]
+[Val]   Loss: 0.0977 | Dice: 0.5485 | Acc: 0.9671
+
+[Epoch 18/20]
+Training: 100%|█████████████████████████████████████████| 129/129 [49:13<00:00, 22.89s/it] 
+[Train] Loss: 0.0978 | Dice: 0.5319 | Acc: 0.9665
+Validation:  53%|█████████████████████▉                   | 23/43 [01:37<01:18,  3.92s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:41<01:14,  3.91s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:54<00:00,  4.06s/it]
+[Val]   Loss: 0.0963 | Dice: 0.5762 | Acc: 0.9682
+
+[Epoch 19/20]
+Training:  47%|███████████████████▌                      | 60/129 [22:52<26:07, 22.72s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [49:09<00:00, 22.86s/it]
+[Train] Loss: 0.1001 | Dice: 0.5348 | Acc: 0.9656
+Validation:  53%|█████████████████████▉                   | 23/43 [01:34<01:18,  3.93s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:38<01:13,  3.87s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [02:51<00:00,  3.99s/it]
+[Val]   Loss: 0.1083 | Dice: 0.5260 | Acc: 0.9659
+
+[Epoch 20/20]
+Training:  98%|████████████████████████████████████████ | 126/129 [48:11<01:08, 22.95s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Training: 100%|█████████████████████████████████████████| 129/129 [49:20<00:00, 22.95s/it]
+[Train] Loss: 0.0952 | Dice: 0.5544 | Acc: 0.9675
+Validation:  53%|█████████████████████▉                   | 23/43 [01:44<01:22,  4.15s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation:  56%|██████████████████████▉                  | 24/43 [01:47<01:17,  4.05s/it]C:\Users\user\Documents\Graduation Project\Brain Tumor detection implementation\venv311\Lib\site-packages\sklearn\metrics\_ranking.py:379: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+Validation: 100%|█████████████████████████████████████████| 43/43 [03:01<00:00,  4.22s/it]
+[Val]   Loss: 0.0907 | Dice: 0.5870 | Acc: 0.9700
+[INFO] Model saved as brats3d_unet.pth
